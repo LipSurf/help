@@ -27,7 +27,9 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'configuration/new-tab-page.md',
+					'configuration/adding-languages.md',
 				],
+				sidebarDepth: 0,
 			},
 			{
 				title: 'Troubleshooting',
