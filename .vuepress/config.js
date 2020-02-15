@@ -35,6 +35,7 @@ module.exports = {
 				title: 'Troubleshooting',
 				collapsable: false,
 				children: [
+					'not-working.md',
 					'update-lipsurf.md',
 				],
 			}
