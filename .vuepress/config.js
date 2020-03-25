@@ -36,6 +36,7 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'not-working.md',
+					'no-icon.md',
 					'update-lipsurf.md',
 				],
 			}
