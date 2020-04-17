@@ -15,3 +15,10 @@ The version is shown next to the extensions title: "LipSurf - Voice Control for 
 2. Enable "developer mode"
 
 3. Click "update"
+
+## Install a Beta or Custom Version
+1. Go to `chrome://extensions`
+
+2. Enable "developer mode"
+
+3. Click "load unpacked" and navigate to and select the zip folder with the custom version of LipSurf.
