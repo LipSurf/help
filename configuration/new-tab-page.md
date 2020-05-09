@@ -1,7 +1,7 @@
 # Use a New Tab Other Than the LipSurf New Tab Page
 
 ::: warning NOTE
-LipSurf has it's own "new tab" page so that voice control will work there. Due to Google Chrome security restrictions, LipSurf can't show the live transcript and not all LipSurf commands will work on the default new tab page, or on another extension's new tab page.
+Due to Google Chrome security restrictions, LipSurf can't show the live transcript and not all LipSurf commands will work on the default new tab page, or on another extension's new tab page. To overcome these limitations, LipSurf has it's own "new tab" page.
 :::
 
 ## Don't want LipSurf on your new tab?
