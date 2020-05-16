@@ -28,6 +28,7 @@ module.exports = {
 				children: [
 					'configuration/new-tab-page.md',
 					'configuration/adding-languages.md',
+					'configuration/custom-plugins.md',
 				],
 				sidebarDepth: 0,
 			},
