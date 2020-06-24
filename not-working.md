@@ -6,9 +6,11 @@ Here are steps you can take if LipSurf is not responding:
 
 1. Make sure your internet is working.
 
-2. Make sure your microphone is working, not muted, and has sufficient volume in Google Chrome. Use [online mic test](https://www.onlinemictest.com/) to test—the line there should be moving significantly when you speak.
+2. Paste this into your address bar: `chrome://settings/content/microphone?search=microphone` and make sure the correct microphone is selected at the top.
 
-3. Make sure LipSurf is activated. 
+3. Make sure your microphone is working, not muted, and has sufficient volume in Google Chrome. Use [online mic test](https://www.onlinemictest.com/) to test (the line there should move when you speak).
+
+4. Make sure LipSurf is activated. 
           <div style="display: flex; justify-content: center;">
             <figure class="icon">
               <img src="/icon-en-on.png" alt="LipSurf activated icon">
@@ -21,7 +23,7 @@ Here are steps you can take if LipSurf is not responding:
           </div>
 The extension icon should be colored turquoise and have a red dot. If you don't see the icon, click the three dots on the right side of the Google Chrome toolbar⁠—there you should see the LipSurf icon. Right click it and click "show in toolbar".
 
-4. Make sure the live transcript option is on in the LipSurf options.
+5. Make sure the live transcript option is on in the LipSurf options.
 
 ### Live transcript shows what I speak, but commands don't work
 
