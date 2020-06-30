@@ -75,14 +75,14 @@ Scroll.languages!.ru = {        // notice the same 2 character language code as 
     
     * Case and hyphen insensitive
 
-    * a "*" represents wildcard (anything can be said in it's position. Eg. "google *" will match <span class="voice-cmd">google no bake cheesecake</span>)
+    * an `*` represents wildcard (anything can be said in it's position. Eg. `google *` will match <span class="voice-cmd">google no bake cheesecake</span>)
 
-        * Command words cannot start with a "*", but they may have a "*" in the middle.
+        * Command words cannot start with an `*`, but they may have an `*` in the middle.
 
-    * a "#" represents any numeral or ordinal number (eg. the command word for changing tabs is "tab #" and "# tab" so you can say things like <span class="voice-cmd">tab 1</span>
+    * a `#` represents any numeral or ordinal number (eg. the command word for changing tabs is `tab #` and `# tab` so you can say things like <span class="voice-cmd">tab 1</span>
    or <span class="voice-cmd">first tab</span>).
 
-    * Aim for short - especially for the most used commands (eg. "top" instead of "scroll to top of the page", "auto scroll" instead of  "automatically scroll down"). 
+    * Aim for short - especially for the most used commands (eg. `top` instead of `scroll to top of the page`, `auto scroll` instead of  `automatically scroll down`). 
 
     * There may be more than one match phrase. It's good to have at least all the intuitive variations.
 
