@@ -11,8 +11,12 @@ LipSurf plugins have a `.ls` extension.
 :::
 
 1. Go to the LipSurf options.
+
 2. Enable "developer mode".
+
 3. Click "load a local plugin".
+
 4. Select the plugin file.
 
-The custom plugin is now installed. You can verify the plugin's new version number in the options if you were simply installing a new version.
+
+The custom plugin is now installed. You can verify the plugin's new version number in the options.
