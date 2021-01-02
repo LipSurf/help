@@ -8,7 +8,7 @@ module.exports = {
 		footer: '© 2021 LipSurf',
 		editLinks: true,
 		editLinkText: 'Improve this page',
-		docsDir: 'docs',
+		docsDir: '',
 		sidebar: [
 			// {
 			// 	title: 'Basic Commands',
