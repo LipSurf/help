@@ -27,6 +27,7 @@ module.exports = {
 				collapsable: false,
 				children: [
 					'configuration/new-tab-page.md',
+					'configuration/hide-debugging-msg.md',
 					'configuration/adding-languages.md',
 					'configuration/custom-plugins.md',
 				],
