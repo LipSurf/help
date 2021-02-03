@@ -40,6 +40,7 @@ module.exports = {
 					'not-working.md',
 					'no-icon.md',
 					'update-lipsurf.md',
+					'pdfs.md',
 				],
 			}
 		],
