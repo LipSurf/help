@@ -1,4 +1,5 @@
 module.exports = {
+	lang: 'en-US',
 	title: 'LipSurf User Manual',
 	description: 'LipSurf operation and troubleshooting manual',
 	base: '/',
@@ -6,44 +7,30 @@ module.exports = {
 		logo: '/icon-128.png',
 		repo: 'lipsurf/help',
 		footer: '© 2021 LipSurf',
+		contributors: false,
 		editLinks: true,
 		editLinkText: 'Improve this page',
-		docsDir: '',
+		sidebarDepth: 0,
 		sidebar: [
-			// {
-			// 	title: 'Basic Commands',
-			// 	collapsable: false,
-			// 	children: [
-			// 	],
-			// },
-			// {
-			// 	title: 'Custom Commands',
-			// 	collapsable: false,
-			// 	children: [
-			// 	],
-			// },
 			{
-				title: 'Configuration',
-				collapsable: false,
+				text: 'Configuration',
 				children: [
-					'configuration/new-tab-page.md',
-					'configuration/hide-debugging-msg.md',
-					'configuration/adding-languages.md',
-					'configuration/custom-plugins.md',
+					'/configuration/new-tab-page.md',
+					'/configuration/hide-debugging-msg.md',
+					'/configuration/adding-languages.md',
+					'/configuration/custom-plugins.md',
 				],
-				sidebarDepth: 0,
 			},
 			{
-				title: 'Troubleshooting',
-				collapsable: false,
+				text: 'Troubleshooting',
 				children: [
-					'not-working.md',
-					'no-icon.md',
-					'update-lipsurf.md',
-					'pdfs.md',
+					'/troubleshooting/not-working.md',
+					'/troubleshooting/no-icon.md',
+					'/troubleshooting/update-lipsurf.md',
+					'/troubleshooting/pdfs.md',
+					'/troubleshooting/dictation-additional-steps.md'
 				],
-			}
-		],
+		}],
 		lastUpdated: 'Last updated',
 	}
 }
