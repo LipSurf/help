@@ -18,4 +18,4 @@ Due to a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=885025" 
 ::: warning NOTE
 This should not affect your browsing experience in any way. Chrome apps are deprecated in Chrome.
 :::
-![screenshot of removing a Chrome app](/chrome-apps-remove.png)
+![screenshot of removing a Chrome app](./chrome-apps-remove.png)

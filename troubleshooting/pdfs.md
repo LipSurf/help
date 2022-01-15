@@ -12,4 +12,4 @@ locally, so you may need to take these additional steps.
 
 3. Enable "Allow access to file URLs".
 
-![screenshot of toggle for allowing access to file URLs](/allow-access-to-file-urls.png)
+![screenshot of toggle for allowing access to file URLs](./allow-access-to-file-urls.png)

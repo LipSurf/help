@@ -13,11 +13,11 @@ Here are steps you can take if LipSurf is not responding:
 4. Make sure LipSurf is activated. 
           <div style="display: flex; justify-content: center;">
             <figure class="icon">
-              <img src="/icon-en-on.png" alt="LipSurf activated icon">
+              <img src="./icon-en-on.png" alt="LipSurf activated icon">
               <figcaption>Activated</figcaption>
             </figure>
             <figure class="icon">
-              <img src="/icon-off.png" alt="LipSurf deactivated icon">
+              <img src="./icon-off.png" alt="LipSurf deactivated icon">
               <figcaption>Deactivated</figcaption>
             </figure>
           </div>

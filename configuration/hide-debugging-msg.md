@@ -4,7 +4,7 @@ Chrome shows "'LipSurf - Voice Control for the Web' started debugging this brows
 
 ## Windows
 
-<img alt="Windows turn off debugger warning" src="/windows-hide-debugger-msg.gif" width="550">
+![Windows turn off debugger warning](./windows-hide-debugger-msg.gif)
 
 1. Right click the icon from where you launch Chrome - whether it be the task bar, Desktop, or the programs menu 
 (you will need to follow these instructions for each shortcut you use).
@@ -20,15 +20,25 @@ Chrome shows "'LipSurf - Voice Control for the Web' started debugging this brows
 
 ## Mac
 
-1. Create an Applescript with the following contents:
+1. Open Script Editor (In Applications -> Utilities)
+
+2. Paste the following:
 
 ```
 do shell script "open -b com.google.Chrome --args --silent-debugger-extension-api"
 ```
 
-2. Save it as an **application**.
+3. Save it with the name "Chrome No Debugger" in Applications and file format **Application**.
 
-3. Exit and relaunch Chrome.
+![Mac apple script settings visualized](./apple-script.png)
+
+4. Exit Chrome if it's open.
+
+5. Go to Applications to launch "Chrome No Debugger"
+
+::: warning NOTE
+You should remove the old Chrome shortcut from your Dock and only use this new one to open Chrome from now on.
+:::
 
 
 ## Linux (Ubuntu)
