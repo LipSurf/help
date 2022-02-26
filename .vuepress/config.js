@@ -30,7 +30,9 @@ module.exports = {
 					'/troubleshooting/pdfs.md',
 					'/troubleshooting/dictation-additional-steps.md'
 				],
-		}],
+			},
+			'/FAQs.md',
+		],
 		lastUpdated: 'Last updated',
 	}
 }
