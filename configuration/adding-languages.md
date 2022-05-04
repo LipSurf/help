@@ -18,7 +18,7 @@ Languages can be added and improved by anyone.
 
 #### 2) Translate the name: `LipSurf - Voice Control for the Web` and description:
 
-@[code](../../listing/description.txt)
+<<< listing/description.txt
 
 
 #### 3) Translate the commands. 
