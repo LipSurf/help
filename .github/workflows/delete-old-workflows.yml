@@ -1,0 +1,27 @@
+name: Clean Old Workflows
+
+on:
+  # Triggers the workflow every 7 days
+  schedule:
+    - cron: "* * */7 * *"
+  workflow_dispatch:
+    inputs:
+      days_old:
+        description: "The amount of days old to delete"
+        required: false
+
+jobs:
+  clean-old-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set days output
+        id: days
+        run: |
+          DAYS_OLD=${{ github.event.inputs.days_old }}
+          echo "::set-output name=value::${DAYS_OLD:-"7"}"
+      - uses: igorjs/gh-actions-clean-workflow@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          days_old: ${{ steps.days.outputs.value}}
