@@ -25,6 +25,12 @@ The extension icon should be colored turquoise and have a red dot. If you don't 
 
 5. Make sure the live transcript option is on in the LipSurf options.
 
+:::tip
+
+You can use [this page](https://www.google.com/intl/en/chrome/demos/speech.html) to troubleshoot. If the speech recognition doesn't work here, the issue is with either your microphone, browser, or internet. If that page works but LipSurf doesn't, please [contact us](https://www.lipsurf.com/contact).
+
+:::
+
 ### Live transcript shows what I speak, but commands don't work
 
 The live transcript starts with a grey color when you're speaking, turns white when it is more confident with what you said, and finally turns green if it recognizes a valid command. 
