@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,a}from"./app.fb94890c.js";const d='{"title":"LipSurf Manual","description":"","frontmatter":{},"headers":[{"level":2,"title":"Getting More Help","slug":"getting-more-help"}],"relativePath":"index.md"}',o={},n=a("",4),s=[n];function i(l,p,c,h,u,f){return t(),r("div",null,s)}var m=e(o,[["render",i]]);export{d as __pageData,m as default};
